@@ -18,6 +18,12 @@ const Introduction = () => {
 			<p className='text-lg text-gray-400'>
 				Educator, Researcher, UCLA PhD Candidate
 			</p>
+			<p className='m-4 p-8'>
+				I am a scholar of nineteenth- and early twentieth-century
+				British literature and a PhD candidate at UCLA. Previously, I
+				oversaw the historical research for the Emmy-nominated show "The
+				Nevers" on HBO.
+			</p>
 		</section>
 	);
 };
