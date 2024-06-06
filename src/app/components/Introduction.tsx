@@ -5,7 +5,12 @@ const Introduction = () => {
 			className='container mx-auto py-16 text-center'
 		>
 			<img
-				src='/profile-pic.jpg'
+				src='public\bookshelf.jpg'
+				alt='Bookshelf'
+				className='w-32 h-32 rounded-full mx-auto mb-4'
+			/>
+			<img
+				src='public\headshot.jpg'
 				alt='Profile'
 				className='w-32 h-32 rounded-full mx-auto mb-4'
 			/>
