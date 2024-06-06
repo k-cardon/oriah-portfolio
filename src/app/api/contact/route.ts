@@ -13,6 +13,7 @@ export default function handler(
 ) {
 	if (req.method === 'POST') {
 		const { name, email, message } = req.body;
+		console.log(req.body);
 		// Here you can handle the form data, e.g., save it to a database or send an email
 		res.status(200).json({ message: 'Message sent successfully!' });
 	} else {

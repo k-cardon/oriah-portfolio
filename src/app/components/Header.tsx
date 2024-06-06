@@ -7,27 +7,42 @@ const Header = () => {
 				<div className='text-lg font-bold text-white'>My Portfolio</div>
 				<ul className='flex space-x-4'>
 					<li>
-						<Link href='#home' className='hover:text-gray-400'>
+						<Link
+							href='#home'
+							className='text-white hover:text-gray-400'
+						>
 							Home
 						</Link>
 					</li>
 					<li>
-						<Link href='#about' className='hover:text-gray-400'>
+						<Link
+							href='#about'
+							className='text-white hover:text-gray-400'
+						>
 							About
 						</Link>
 					</li>
 					<li>
-						<Link href='#skills' className='hover:text-gray-400'>
+						<Link
+							href='#skills'
+							className='text-white hover:text-gray-400'
+						>
 							Skills
 						</Link>
 					</li>
 					<li>
-						<Link href='#portfolio' className='hover:text-gray-400'>
+						<Link
+							href='#portfolio'
+							className='text-white hover:text-gray-400'
+						>
 							Portfolio
 						</Link>
 					</li>
 					<li>
-						<Link href='#contact' className='hover:text-gray-400'>
+						<Link
+							href='#contact'
+							className='text-white hover:text-gray-400'
+						>
 							Contact
 						</Link>
 					</li>
