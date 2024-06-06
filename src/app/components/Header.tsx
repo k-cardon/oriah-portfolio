@@ -2,28 +2,33 @@ import Link from 'next/link';
 
 const Header = () => {
 	return (
-		<header className='bg-gray-800 py-4 shadow-md'>
+		<header className='bg-gray-800 p-4 shadow-md'>
 			<nav className='container mx-auto flex justify-between items-center'>
 				<div className='text-lg font-bold text-white'>My Portfolio</div>
 				<ul className='flex space-x-4'>
 					<li>
-						<Link href='#introduction'>
-							<a className='hover:text-gray-400'>Home</a>
+						<Link href='#home' className='hover:text-gray-400'>
+							Home
 						</Link>
 					</li>
 					<li>
-						<Link href='#skills'>
-							<a className='hover:text-gray-400'>Skills</a>
+						<Link href='#about' className='hover:text-gray-400'>
+							About
 						</Link>
 					</li>
 					<li>
-						<Link href='#portfolio'>
-							<a className='hover:text-gray-400'>Portfolio</a>
+						<Link href='#skills' className='hover:text-gray-400'>
+							Skills
 						</Link>
 					</li>
 					<li>
-						<Link href='#contact'>
-							<a className='hover:text-gray-400'>Contact</a>
+						<Link href='#portfolio' className='hover:text-gray-400'>
+							Portfolio
+						</Link>
+					</li>
+					<li>
+						<Link href='#contact' className='hover:text-gray-400'>
+							Contact
 						</Link>
 					</li>
 				</ul>
