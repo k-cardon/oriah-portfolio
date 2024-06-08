@@ -1,9 +1,9 @@
 const Portfolio = () => {
 	const projects = [
 		{
-			title: 'Project One',
+			title: 'Dissertation',
 			image: '/project1.jpg',
-			description: 'A brief description of Project One.',
+			description: 'A brief description of Dissertation.',
 		},
 		{
 			title: 'Project Two',
