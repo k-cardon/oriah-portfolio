@@ -6,9 +6,9 @@ const Portfolio = () => {
 			description: 'A brief description of Dissertation.',
 		},
 		{
-			title: 'Project Two',
+			title: 'The Nevers',
 			image: '/project2.jpg',
-			description: 'A brief description of Project Two.',
+			description: 'A brief description of The Nevers.',
 		},
 	];
 
