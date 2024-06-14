@@ -1,3 +1,5 @@
+//I think this one might be a better model to follow: https://github.com/hqasmei/tailwindcss-and-nextjs-portfolio
+
 import Header from '@/app/components/Header';
 import Introduction from '@/app/components/Introduction';
 import Skills from '@/app/components/Skills';
