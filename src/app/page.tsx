@@ -1,23 +1,15 @@
 //I think this one might be a better model to follow: https://github.com/hqasmei/tailwindcss-and-nextjs-portfolio
 
-import Header from '@/app/components/Header';
-import Introduction from '@/app/components/Introduction';
-import Skills from '@/app/components/Skills';
-import Portfolio from '@/app/components/Portfolio';
-import Contact from '@/app/components/Contact';
+import AboutSection from "@/components/AboutSection"
+import HeroSection from "@/components/HeroSection"
+import ProjectsSection from "@/components/ProjectsSection"
 
-const Home = () => {
+export default function Home() {
 	return (
-		<div>
-			<Header />
-			<main>
-				<Introduction />
-				<Skills />
-				<Portfolio />
-				<Contact />
-			</main>
-		</div>
-	);
-};
-
-export default Home;
+	  <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
+		<HeroSection />
+		<AboutSection />
+		<ProjectsSection />
+	  </main>
+	)
+  }
